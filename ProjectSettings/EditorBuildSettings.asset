@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/3_Cinematic_project/Cinematic Project.unity
     guid: 923e277abd68e9741968cbd43c48c1cc
-  - enabled: 1
+  - enabled: 0
     path: Assets/5-CinematicProject2/StarStory.unity
     guid: 2d46adb451271c34d8aa9db301e31e65
+  - enabled: 1
+    path: Assets/6-Particles/Particles.unity
+    guid: 3140312d711a34741bd4d4f97c779480
   m_configObjects: {}
