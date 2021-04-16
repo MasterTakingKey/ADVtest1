@@ -22,16 +22,13 @@ public class FloralBehaviour : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collider activado");
-        FloralAnim.SetBool("FloralUp", false);
-        //sonido.Play();
+       FloralAnim.SetBool("FloralUp", false);
+        
 
     }
 
     void OnTriggerExit(Collider other)
     {
-        Debug.Log("Collider desactivado");
-        FloralAnim.SetBool("FloralUp", true);
-        //sonido.Stop();
+       FloralAnim.SetBool("FloralUp", true);
     }
 }

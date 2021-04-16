@@ -29,7 +29,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/7-State Machines/State Machine.unity
     guid: b9139e8327c0fa94180dc03c679bfd71
-  - enabled: 1
+  - enabled: 0
     path: Assets/8-Project3/HouseExploring.unity
     guid: f0cef461cc2cdd94f91917b89fa2723b
+  - enabled: 1
+    path: Assets/9_Lesson9/CharacterAnimations.unity
+    guid: 7d5cac91dcea96246b35499c3c579b59
   m_configObjects: {}

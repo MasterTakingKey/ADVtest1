@@ -23,8 +23,7 @@ public class DoorBehaviour : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collider de la puerta " + animBoolName + number + "activado");
-        DoorsAnimator.SetBool(animBoolName + number, true);
+       DoorsAnimator.SetBool(animBoolName + number, true);
         sonidoAbrir.Play();
 
 
