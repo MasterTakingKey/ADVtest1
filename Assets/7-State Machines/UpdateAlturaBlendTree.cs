@@ -5,7 +5,7 @@ using UnityEngine;
 public class UpdateAlturaBlendTree : MonoBehaviour
 {
     // Start is called before the first frame update
-    Rigidbody rigidbody;
+    //Rigidbody rigidbody;
     public Animator animatorPelota;
     public Animator animatorCofre;
     bool abierto;
