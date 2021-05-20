@@ -40,10 +40,10 @@ public class ClosetController : MonoBehaviour
             //closet.SetActive(true);
             closetAnimator.SetTrigger("Show");
             //Playsoundeffect
-            playerAnimator.SetTrigger("Limit");
             aparitionSound.Play();
             animStart = Time.time;
             showed = true;
+            playerAnimator.SetTrigger("ClosetShowed");
 
         }
     }
